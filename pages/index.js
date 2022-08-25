@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <div>
       <h1>Hello World</h1>
-      <ConferenceTable columns={columns} data={data} />
+      <ConferenceTable />
     </div>
   )
 }

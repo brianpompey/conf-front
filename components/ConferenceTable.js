@@ -5,8 +5,8 @@ const ConferenceTable = () => {
     
     return (
         <div>
-            <h2>Table</h2>
-            <table width={'100%'}>
+            <h2 className="text-3xl font-bold underline">Table</h2>
+            {/* <table width={'100%'}>
                 <tr>
                     <th>Name</th>
                     <th>Date</th>
@@ -17,7 +17,7 @@ const ConferenceTable = () => {
                     <th>Workshop Example</th>
                     <th>Talk Example</th>
                 </tr>
-            </table>
+            </table> */}
 
         </div>
         

@@ -8,21 +8,28 @@ const ConferenceTable = () => {
         <Table hoverable={true}>
             <Table.Head>
                 <Table.HeadCell>
-                Product name
+                Name
                 </Table.HeadCell>
                 <Table.HeadCell>
-                Color
+                Date
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Time
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Minimum Donation
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Keynote
                 </Table.HeadCell>
                 <Table.HeadCell>
                 Category
                 </Table.HeadCell>
                 <Table.HeadCell>
-                Price
+                Workshop Example
                 </Table.HeadCell>
                 <Table.HeadCell>
-                <span className="sr-only">
-                    Edit
-                </span>
+                Talk Examples
                 </Table.HeadCell>
             </Table.Head>
         </Table>

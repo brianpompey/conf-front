@@ -1,25 +1,31 @@
 import React from "react";
-// import { useTable } from "react-table";
+import { Table } from "flowbite-react";
+
 
 const ConferenceTable = () => {
     
     return (
-        <div>
-            <h2 className="text-3xl font-bold underline">Table</h2>
-            {/* <table width={'100%'}>
-                <tr>
-                    <th>Name</th>
-                    <th>Date</th>
-                    <th>Time</th>
-                    <th>Minimum Donation</th>
-                    <th>Keynote</th>
-                    <th>Category</th>
-                    <th>Workshop Example</th>
-                    <th>Talk Example</th>
-                </tr>
-            </table> */}
-
-        </div>
+        <Table>
+            <Table.Head>
+                <Table.HeadCell>
+                Product name
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Color
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Category
+                </Table.HeadCell>
+                <Table.HeadCell>
+                Price
+                </Table.HeadCell>
+                <Table.HeadCell>
+                <span className="sr-only">
+                    Edit
+                </span>
+                </Table.HeadCell>
+            </Table.Head>
+        </Table>
         
     )
     

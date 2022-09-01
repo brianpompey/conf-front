@@ -5,7 +5,7 @@ import { Table } from "flowbite-react";
 const ConferenceTable = () => {
     
     return (
-        <Table>
+        <Table hoverable={true}>
             <Table.Head>
                 <Table.HeadCell>
                 Product name

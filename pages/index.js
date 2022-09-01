@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
+      <h1 className="text-3xl font-bold underline">Quarantine Conference</h1>
       <ConferenceTable />
     </div>
   )
